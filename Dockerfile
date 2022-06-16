@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.6-alpine
 LABEL maintainer="limonchoms@outlook.com"
 
 RUN git clone https://github.com/zhongfly/telegram-bot-asf.git app 
