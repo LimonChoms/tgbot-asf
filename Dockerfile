@@ -7,4 +7,4 @@ RUN cd /app && pip3 install -r requirements.txt
 
 WORKDIR /app
 
-ENTRYPOINT ["python" "telegram-asf.py" "/app/config/tgbot.toml"]
+CMD ["python","telegram-asf.py","/app/config/tgbot.toml"]
