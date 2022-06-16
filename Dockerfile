@@ -1,7 +1,7 @@
 FROM python:3.6
 LABEL maintainer="limonchoms@outlook.com"
 
-RUN apt update && apt install git -y && git clone https://github.com/zhongfly/telegram-bot-asf.git app && apt remove git && apt autoremove -y
+RUN git clone https://github.com/zhongfly/telegram-bot-asf.git app 
 
 RUN cd /app && pip3 install -r requirements.txt
 
