@@ -7,4 +7,4 @@ RUN cd /app && pip3 install -r requirements.txt
 
 WORKDIR /app
 
-CMD ["python","simple.py","/app/config/tgbot.toml"]
+CMD ["python","simple.py","/app/config/tgbot.conf"]
